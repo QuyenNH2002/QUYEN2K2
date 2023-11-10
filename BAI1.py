@@ -9,7 +9,7 @@ def solve_linear_system(a, b, method):
 class App:
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("Giải hệ phương trình tuyến tính - Pro")
+        self.root.title("Giải hệ phương trình tuyến tính n phương trình n ẩn")
 
         # Thêm menu để người dùng chọn phương pháp giải
         self.menubar = tk.Menu(self.root)
